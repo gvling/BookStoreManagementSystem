@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import HideAppBar from '../components/AppBar.js'
+import Head from 'next/head';
 import { TabTitle } from '../assets/text/Contents.js';
+import HideAppBar from '../components/AppBar.js';
+import AddBook from '../components/AddBook.js';
 
 const Index = () => (
   <div>
@@ -11,7 +12,7 @@ const Index = () => (
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
     </Head>
     <HideAppBar/>
-    <p>Hello Next.js</p>
+    <AddBook/>
   </div>
 )
 

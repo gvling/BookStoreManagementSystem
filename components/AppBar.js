@@ -9,6 +9,7 @@ import Slide from '@material-ui/core/Slide';
 import IconButton from '@material-ui/core/IconButton';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
+import BookIcon from '@material-ui/icons/MenuBook';
 import { makeStyles } from '@material-ui/core/styles';
 
 import { GitHubIcon } from './SvgIcon';
@@ -72,7 +73,7 @@ export default function HideAppBar(props) {
             <div className={classes.grow} />
             <div className={classes.sectionDesktop}>
               <IconButton aria-label="github" color="inherit">
-                <GitHubIcon />
+                <BookIcon />
               </IconButton>
             </div>
           </Toolbar>
